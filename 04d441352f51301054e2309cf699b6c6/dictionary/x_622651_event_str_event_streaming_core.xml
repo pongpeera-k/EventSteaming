@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Event Streaming Core" max_length="40" name="x_622651_event_str_event_streaming_core" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Approver UG group" max_length="40" name="approver_ug_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Team or Mulesoft BG" max_length="40" name="team_or_mulesoft_bg" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Topic name" max_length="40" name="topic_name" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

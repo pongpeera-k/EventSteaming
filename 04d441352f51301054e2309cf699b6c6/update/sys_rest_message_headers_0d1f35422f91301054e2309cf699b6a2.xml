@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>Content-Type</name>
+        <rest_message display_value="testtest">cbcef9c22f91301054e2309cf699b647</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 17:16:47</sys_created_on>
+        <sys_id>0d1f35422f91301054e2309cf699b6a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="Event Streaming" source="x_622651_event_str">04d441352f51301054e2309cf699b6c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Streaming">04d441352f51301054e2309cf699b6c6</sys_scope>
+        <sys_update_name>sys_rest_message_headers_0d1f35422f91301054e2309cf699b6a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 17:16:47</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_headers>
+</record_update>

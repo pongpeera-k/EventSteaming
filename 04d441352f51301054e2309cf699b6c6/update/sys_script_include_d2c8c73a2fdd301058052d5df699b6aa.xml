@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_622651_event_str.testing_script</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>testing_script</name>
+        <script><![CDATA[var testing_script = Class.create();
+testing_script.prototype = {
+    initialize: function() {
+		console.log(response)
+    },
+
+    type: 'testing_script'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-16 06:31:32</sys_created_on>
+        <sys_id>d2c8c73a2fdd301058052d5df699b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>testing_script</sys_name>
+        <sys_package display_value="Event Streaming" source="x_622651_event_str">04d441352f51301054e2309cf699b6c6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Event Streaming">04d441352f51301054e2309cf699b6c6</sys_scope>
+        <sys_update_name>sys_script_include_d2c8c73a2fdd301058052d5df699b6aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-16 06:31:32</sys_updated_on>
+    </sys_script_include>
+</record_update>
